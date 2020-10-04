@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' type='text/css' href='./css/home.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id='app'>
+        <h1> TODO App</h1>
+         <div>
+             <form action="">
+                <div id='name'>
+                    <div><label for ='#describe'>Description</label></div>
+                    <div><input id='describe' name='Description' type='text' placeholder='What do you need to do?'></div>
+                </div>
+                <div id='details'>
+                    <span id='category'>
+                        <div><label for="">Category</label></div>
+                        <div>
+                            <select name="category" >
+                                <option value='Choice'>Choose a category</option>
+                                <option value='Personal'>Personal</option>
+                                <option value='Work'>Work</option>
+                                <option value='School'>School</option>
+                                <option value='Cleaning'>Cleaning</option>
+                                <option value='Other'>Other</option>
+                            </select>
+                        </div>
+                    </span> 
+                    <span id='Date'>
+                        <div><label for ='#date'>DUE DATE</label></div>
+                        <div><input id='date' name='date' type='date' placeholder='dd/mm/yyyy'></div>
+                    </span>   
+                </div>
+                <div>
+                    <button type='text'>ADD TASK</button>
+                 </div>
+             </form>
+         </div>
+         
+        </div>
+    </body>
+</html>

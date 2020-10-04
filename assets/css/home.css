@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    background-color:rgb(39, 37, 37);
+}
+h1{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#app{
+    height:75vh;
+    width:50%;
+    margin:auto;
+    background-color: white;;
+}
+#name{
+    border-top:1px solid grey;
+    border-bottom: 1px solid gray;
+
+}
+label{
+    margin-left:1vw;
+}
+#describe{
+    outline: none;
+    border-style: none;
+    margin-bottom:10px;
+    margin-left:1vw;
+}
+#details{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+#category{
+    width:50%;
+}
+#category select{
+    margin-left:1vw;
+    border:none;
+    width:100%;
+    margin-bottom:10px;
+}
+#Date{
+    border:none;
+}
+#date{
+    margin-left:1vw;
+}
